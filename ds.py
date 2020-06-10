@@ -28,7 +28,7 @@ class Stack:
     def size(self):
         return len(self.stack)
 
-    def __repr__(self):
+    def __str__(self):
         return str(self.stack)
 
 
@@ -59,7 +59,7 @@ class Queue:
     def size(self):
         return len(self.queue)
 
-    def __repr__(self):
+    def __str__(self):
         return str(self.queue)
 
 

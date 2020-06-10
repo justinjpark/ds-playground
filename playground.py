@@ -5,6 +5,7 @@
 
 import ds
 
+
 def test_stack():
     s = ds.Stack()
     s.push(1)
@@ -22,6 +23,7 @@ def test_stack():
     print(f'@ stack: {s} (top)')
     print(f'@ peek() returns: {s.peek()}')
     print(f'@ pop() returns: {s.pop()}')
+
 
 def test_queue():
     q = ds.Queue()
@@ -41,6 +43,7 @@ def test_queue():
     print(f'peek() returns: {q.peek()}')
     print(f'dequeue() returns: {q.dequeue()}')
 
+
 def test_bst():
     nums = [8, 3, 10, 1, 6, 14, 4, 7, 13]
     root = ds.TreeNode(nums[0])
@@ -55,6 +58,7 @@ def test_bst():
     root.remove(13)
     root.print_horizontal()
 
+
 # playground
 def main():
     print('testing stack. . .')
@@ -66,5 +70,6 @@ def main():
     print('testing binary search tree. . .')
     test_bst()
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
