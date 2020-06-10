@@ -1,2 +1,2 @@
 # ds-playground
-Playground for data structures in Python
+Playground for implementing data structures in Python
